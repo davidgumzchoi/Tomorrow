@@ -1,0 +1,167 @@
+body {
+	background-color: #fbfbfb;
+	color: #4f4d4b;
+	font-family: "Noto+Sans", Helvetica;
+}
+
+p {
+	font-size: 16px;
+	margin: 0;
+}
+
+section,
+section.header .row > div {
+	min-height: 480px;
+}
+
+.row > div {
+	float: left;
+}
+
+.left {
+	text-align: center;
+}
+
+.right {
+	margin: 0 auto;
+	width: 320px;
+}
+
+section.header .right {
+	text-align: center;
+}
+
+.iphone {
+	height: 400px;
+	margin: 0 auto;
+	position: relative;
+	width: 298px;
+}
+
+img.background {
+	height: 450px;
+}
+
+img.iphone {
+	height: 338px;
+	left: 53px;
+	position: absolute;
+	top: 54px;
+	width: 193px;
+}
+
+h1 {
+	color: #598bff;
+	font-size: 50px;
+	font-weight: bold;
+	margin-top: 50px;
+}
+
+h2 {
+	font-size: 25px;
+}
+
+h3 {
+	font-weight: bold;
+	margin-top: 5px;
+}
+
+img.button {
+	height: 55px;
+	margin: 150px 0 15px;
+}
+
+ul li {
+	display: inline;
+}
+
+section.description {
+	padding-top: 75px;
+}
+
+img.record,
+img.play {
+	height: 125px;
+}
+
+img.menu {
+	height: 50px;
+	margin-top: 50px;
+}
+
+section.description .left {
+	padding-bottom: 50px;
+}
+
+.container .copyright {
+	float: none;
+	text-align: center;
+}
+
+footer {
+	text-align: center;
+}
+
+@media (min-height: 568px) {
+	section,
+	section.header .row > div {
+		min-height: 568px;
+	}
+
+	.left,
+	.right {
+		margin-top: 60px;
+	}
+}
+
+@media (min-height: 768px) {
+	section,
+	section.header .row > div {
+		min-height: 768px;
+	}
+
+	section.description {
+		padding-top: 150px;
+	}
+
+	.left,
+	.right {
+		margin-top: 120px;
+	}
+}
+
+@media (min-height: 1024px) {
+	section,
+	section.header .row > div {
+		min-height: 1024px;
+	}
+
+	.left,
+	.right {
+		margin-top: 120px;
+	}
+}
+
+@media (min-width: 992px) {
+	.iphone {
+		float: right;
+	}
+
+	.content {
+		float: left;
+	}
+
+	section.description {
+		min-height: 285px;
+		padding-top: 0;
+	}
+
+	section.description img {
+		float: right;
+		margin-right: 15px;
+	}
+
+	section.description img.menu {
+		margin-right: 50px;
+	}
+}
